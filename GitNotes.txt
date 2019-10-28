@@ -105,3 +105,29 @@ git diff commitid1 commitid2 -> shows the differnce between the commits
 
 git difftool commitid1 commitid2 -> opens all files from the configured difftool from config file
 
+Branching and Merge types
+--------------------------
+Branch - Timeline of commits
+Branch names are labels
+Deletion removed labels only
+
+Merging branches leads different scenarios
+
+1. Fast Forward Merge -> Simplest case, Like never branched, can be disabled, 
+ 						 no additional work has been detected on the parent branch
+2. Automatic Merges   -> This happens when git detects non-conflicting changes in the parent branch
+						 git is able to automatically resolve any conflicts
+3. Manual Merge 	  -> This happens when git is unable to automatically resolve any conflicts
+						 Git enters a special conflicting merge state, which means all merge conflicts
+						 must be resolved prior to moving forward with the commit
+
+Speacial Markers
+-----------------
+1. Pointers - HEAD -> last commit to current branch. 
+					  can be moved to any manual commit point
+
+Branches
+--------
+
+
+
