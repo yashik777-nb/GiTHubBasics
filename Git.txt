@@ -80,5 +80,11 @@ git log --oneLine --graph -- decorate --all     -> gets only commit entry provid
 
 GIT alias
 ----------
-git config --global alias.hist "--oneline --graph --decorate -all"
+git config --global alias.hist "--oneline --graph --decorate --all" -> adding alias for history
 
+git config --global --list -> for listing out entries in config file
+
+git hist -> executing commanad via alias name
+
+
+git hist -- README.md (file name) -> returns history of only that filename
