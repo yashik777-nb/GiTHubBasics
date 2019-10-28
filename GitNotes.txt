@@ -95,3 +95,6 @@ Rename Files
 -------------
 git mv Git.txt GitNotes.txt -> change file name
 
+git add -A -> to see all the files changes
+
+
