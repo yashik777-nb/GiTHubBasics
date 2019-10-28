@@ -99,3 +99,9 @@ git add -A -> to see all the files changes
 
 Git Ignore file -> *.log -> wild card entry for all log files
 
+Comparing differences
+---------------------
+git diff commitid1 commitid2 -> shows the differnce between the commits
+
+git difftool commitid1 commitid2 -> opens all files from the configured difftool from config file
+
