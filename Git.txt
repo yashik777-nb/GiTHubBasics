@@ -93,5 +93,10 @@ git hist -- README.md (file name) -> returns history of only that filename
 
 Rename Files
 -------------
-git mv Git.txt GitNotes.txt -> change file name
+git mv Git.txt GitNotes.txt -> change file name and stage the file, we have to commit it manually
+
+git rm (filename) -> removes the file from file system and changes are staged, we have to commit manually
+
+
+git add -A -> to cover all types of modifications on the current Directory
 
