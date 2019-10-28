@@ -11,7 +11,8 @@ Integration to other systems
 
 Repository
 Within git the collection of version control files being managed and their history is considered as repository
-hidden folder in workspace .get folder, it contains collection of files and folders that make up the internal structure of the repository
+hidden folder in workspace .get folder, it contains collection of files and folders that make up the internal 
+structure of the repository
 
 commits and files
 commit -> contains of one or many files changes, Git versions files not folders. 
@@ -74,8 +75,10 @@ git help log -> all types of log options available
 
 git log --oneLine --graph -- decorate --all     -> gets only commit entry providing information on a single line
 												-> provides an asteric based graph denoting our branching hierarchy
-												-> tells which commits are part of which branching and other labels within the git repo
-												-> provides history for all the branches that are available in this repository
+												-> tells which commits are part of which branching and other labels 
+												   within the git repo
+												-> provides history for all the branches that are available in this 
+												   repository
 
 
 GIT alias
@@ -85,6 +88,5 @@ git config --global alias.hist "--oneline --graph --decorate --all" -> adding al
 git config --global --list -> for listing out entries in config file
 
 git hist -> executing commanad via alias name
-
 
 git hist -- README.md (file name) -> returns history of only that filename
