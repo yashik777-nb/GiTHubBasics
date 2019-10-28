@@ -147,3 +147,12 @@ git branch -d updates(branch name)
 conflict of resolution
 ----------------------
 
+Tagging
+-------
+1. Light weight Tagging
+git tag myTag
+git tag --list
+git hist
+git tag -d myTag
+
+git tag -a v1.0 -m "Commit Tags"
