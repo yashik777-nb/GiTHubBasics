@@ -144,4 +144,6 @@ delete branch
 --------------
 git branch -d updates(branch name)
 
+conflict of resolution
+----------------------
 
