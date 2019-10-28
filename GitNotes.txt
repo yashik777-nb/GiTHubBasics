@@ -128,6 +128,8 @@ Speacial Markers
 
 Branches
 --------
+git branch -> identifies current branch in green and lists out the branches
 
+git checkout -b (branchName)updates -> upadtes branch is created
 
 
