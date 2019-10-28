@@ -138,4 +138,10 @@ switch branch
 ---------------
 git checkout master -> switch to master from branches
 
+git merge (branchNameToBeMerged)updates
+
+delete branch
+--------------
+git branch -d updates(branch name)
+
 
