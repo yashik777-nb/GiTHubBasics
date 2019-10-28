@@ -132,4 +132,10 @@ git branch -> identifies current branch in green and lists out the branches
 
 git checkout -b (branchName)updates -> upadtes branch is created
 
+git diff updates master -> branch names can also be passed
+
+switch branch
+---------------
+git checkout master -> switch to master from branches
+
 
