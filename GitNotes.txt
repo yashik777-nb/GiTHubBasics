@@ -162,3 +162,17 @@ Stash Details
 git stash 
 git stash list
 git stash pop
+
+Time Travel with rest and reflog
+---------------------------------
+git add .
+git status
+
+git reset (commitID) --soft -> 3distinct ways of resetting
+								1. soft -> least destructive of all, chnages are staged and HEAD pointed to commit iD given
+								2. default --mixed -> unstages all changes
+								3. hard --hard -> all changes have been wiped off till this commit iddibani, along with staging area
+
+
+git reflog -> shows all actions that we have taken while in this repo
+
