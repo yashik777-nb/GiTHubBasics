@@ -121,7 +121,7 @@ Merging branches leads different scenarios
 						 Git enters a special conflicting merge state, which means all merge conflicts
 						 must be resolved prior to moving forward with the commit
 
-Speacial Markers
+Special Markers
 -----------------
 1. Pointers - HEAD -> last commit to current branch. 
 					  can be moved to any manual commit point
@@ -159,3 +159,6 @@ git tag -a v1.0 -m "Commit Tags"
 
 Stash Details
 ----------------
+git stash 
+git stash list
+git stash pop
