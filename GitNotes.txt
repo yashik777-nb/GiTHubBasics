@@ -156,3 +156,6 @@ git hist
 git tag -d myTag
 
 git tag -a v1.0 -m "Commit Tags"
+
+Stash Details
+----------------
