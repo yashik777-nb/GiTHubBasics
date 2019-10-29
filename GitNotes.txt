@@ -176,3 +176,7 @@ git reset (commitID) --soft -> 3distinct ways of resetting
 
 git reflog -> shows all actions that we have taken while in this repo
 
+Push changes to remote repo
+----------------------------
+git remote add origin https://github.com/yashik777-nb/GiTHubBasics.git
+git push -u origin master
