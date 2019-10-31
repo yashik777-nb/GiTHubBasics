@@ -178,5 +178,21 @@ git reflog -> shows all actions that we have taken while in this repo
 
 Push changes to remote repo
 ----------------------------
-git remote add origin https://github.com/yashik777-nb/GiTHubBasics.git
-git push -u origin master
+git remote add origin https://github.com/yashik777-nb/GiTHubBasics.git (refernce name, and then url of repo)
+git push -u origin master --tags -> --u(sets up tracking branch relationship btwn master branch on local repo and
+										master on remote repo)
+										name of remote repo
+										name of the branch
+										to send all the tags in our repo to github
+git remote -v ->  lists  out all remote connections
+
+Authentication Used
+------------------------
+Above step was HTTPS based
+ssh vs htttps: https always asks for username & password, bypass it
+
+Generating SSH Key
+-------------------
+ssh-keygen -t rsa -b 4096 -C "yaswanth.iddibani@gmail.com" -> generates two keys one public and private
+
+ssh -T git@github.com
