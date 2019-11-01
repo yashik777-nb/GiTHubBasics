@@ -196,3 +196,11 @@ Generating SSH Key
 ssh-keygen -t rsa -b 4096 -C "yaswanth.iddibani@gmail.com" -> generates two keys one public and private
 
 ssh -T git@github.com
+
+Clone from Git
+------------------
+git clone ssh/https link
+git clone ssh/https(link) projectNameFolder
+
+Fetch vs Pull
+------------------
