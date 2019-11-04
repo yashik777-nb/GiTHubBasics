@@ -204,3 +204,14 @@ git clone ssh/https(link) projectNameFolder
 
 Fetch vs Pull
 ------------------
+get changes from remote server 
+get changes from remote server and merge local changes
+
+git goes to remote repo and update all of its local information based on whats chnaged on githhub
+git Fetch
+git pull
+
+Git Hub Repo Renamed
+-----------------------
+git remote -v -> origin points to old repo name
+git remote set-url origin git@github.com:yashik777-nb/website.git
