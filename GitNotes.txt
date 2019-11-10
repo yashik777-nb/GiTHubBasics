@@ -137,7 +137,7 @@ git diff updates master -> branch names can also be passed
 switch branch
 ---------------
 git checkout master -> switch to master from branches
-
+git branch -a -> list out all branches
 git merge (branchNameToBeMerged)updates
 
 delete branch
@@ -211,7 +211,21 @@ git goes to remote repo and update all of its local information based on whats c
 git Fetch
 git pull
 
+git fetch -p -> updates stale references : prune option, looks for dead branches and removes those references
+
 Git Hub Repo Renamed
 -----------------------
 git remote -v -> origin points to old repo name
 git remote set-url origin git@github.com:yashik777-nb/website.git
+
+Change branches
+------------------
+git checkout master -> switch to master
+git checkout -b origin (branchName)
+
+git push orogin :bracnhNmae -> delte branch on github repo website
+
+Pull With Rebase
+-----------------
+git pull --Rebase
+
