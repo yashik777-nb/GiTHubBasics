@@ -150,12 +150,19 @@ conflict of resolution
 Tagging
 -------
 1. Light weight Tagging
-git tag myTag
+git tag myTag branchName(this references to last commit on the branch)
 git tag --list
 git hist
 git tag -d myTag
 
 git tag -a v1.0 -m "Commit Tags"
+
+pushing tags
+---------------
+git push origin tagName
+git push --tags
+
+git push origin :tagName -> to udpate the remote repo with the deleted tag
 
 Stash Details
 ----------------
@@ -229,3 +236,6 @@ Pull With Rebase
 -----------------
 git pull --Rebase
 
+update git
+------------
+git update-git-for-windows
